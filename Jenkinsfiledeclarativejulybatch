@@ -5,7 +5,7 @@ pipeline{
      maven 'maven3.6.3'
 }
 options{
-timestamp{}
+timestamp
 }
  
  stages{
