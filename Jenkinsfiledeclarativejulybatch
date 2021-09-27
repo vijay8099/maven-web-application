@@ -3,10 +3,6 @@ pipeline{
  
  tools{
      maven 'maven3.6.3'
- }
- 
- triggers{
-    pollSCM('* * * * *')
 }
  
  stages{
